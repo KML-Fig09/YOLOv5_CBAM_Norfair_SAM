@@ -1,5 +1,5 @@
 
-# 🎯 **YOLOv5 + CBAM + Norfair Tracking + SAM: A Comprehensive Peripherals Detection System for Digital Streamers**
+# 🎯 **Advanced YOLOv5 Model with CBAM & Norfair Tracking SAM Segemntation Pipeline: A Computer Peripherals Detection System for Digital Streamers**
 ![HeadphoneHighlight](https://github.com/user-attachments/assets/e7a36c0a-b41a-4e64-afd4-3a250329fba9)
 
 ## 🚀 **Project Overview**
@@ -7,6 +7,8 @@
 This project addresses challenges faced by **digital streamers** in the gaming and tech world. Live-streaming communities often focus on streamers' computer setups, with their audience curious about the equipment used (e.g., headsets, mice, keyboards, PCs). To streamline communication, this project automatically detects these peripherals and presents information in an aesthetically appealing manner using advanced **deep learning techniques**.
 
 The system integrates a **custom YOLOv5** model, augmented with a **Convolutional Block Attention Module (CBAM)** to improve detection, alongside **Norfair tracking** to maintain object identity across frames, and the **Segment Anything Model (SAM)** for creating segmented masks with visually enhanced edge detection. This system is built to highlight detected objects, providing a **science-fiction-like experience** for the audience.
+
+**Note:** The datasets required this model were trained on are too large for this repository, but they have been linked below. The steps I took to combine and augment them will be included in this repo, and the in-depth project report is available on request. 
 
 ## 🖥️ **Application Context**
 
@@ -93,7 +95,16 @@ Key evaluation metrics include:
 - **Mean Average Precision (mAP)**: Overall detection performance.
 - **Loss Metrics**: Box loss, object loss, and class loss, providing insight into model accuracy.
 
-Despite some challenges, such as object misalignment in the final output, the system achieved substantial improvements over the pilot version, found at this repository, with a 121.43% increase in Precision-Recall mAP@0.5. Further improvements could be made with a larger dataset and more time to combine and augment such data.
+Despite some challenges, such as object misalignment in the final output, the system achieved substantial improvements over the pilot version, found at this github also, with a 121.43% increase in Precision-Recall mAP@0.5. Further improvements could be made with a larger dataset and more time to combine and augment such data.
+
+## **Datasets Used**
+
+- Energy Chaser (2023) Desktop PC. Roboflow Universe. Available at: https://universe.roboflow.com/energy-chaser/desktop-pc 
+- Energy Chaser (2023) Monitors TVs & PC Monitors, etc.. Roboflow Universe. Available at: https://universe.roboflow.com/energy-chaser/monitors-tvs-pc-monitors-etc 
+- Mouse 2Lugf (2023) Raava. Roboflow Universe. Available at: https://universe.roboflow.com/mouse-2lugf/raava
+- Project IEC8E (2024) Mouses. Roboflow Universe. Available at: https://universe.roboflow.com/project-iec8e/mouses-zcwi8 
+- Practicas (2024) Computer Keyboard. Roboflow Universe. Available at: https://universe.roboflow.com/practicas-eoqqx/computer-keyboard 
+- YOLOv8 Workspace (2024) Headphones Detection. Roboflow Universe. Available at: https://universe.roboflow.com/yolov8workspace/headphones-detection-rx2oj 
 
 ## 💡 **How to Contribute**
 Contributions are welcome to improve this project! If you'd like to contribute:
