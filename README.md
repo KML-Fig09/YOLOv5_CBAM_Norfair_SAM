@@ -1,5 +1,5 @@
 
-# 🎯 **Advanced YOLOv5 Model with CBAM & Norfair Tracking SAM Segemntation Pipeline: A Computer Peripherals Detection System for Digital Streamers**
+# 🎯 **Advanced YOLOv5 Model with CBAM & Norfair Tracking SAM Segmentation Pipeline: A Computer Peripherals Detection System for Digital Streamers**
 ![HeadphoneHighlight](https://github.com/user-attachments/assets/e7a36c0a-b41a-4e64-afd4-3a250329fba9)
 
 ## 🚀 **Project Overview**
